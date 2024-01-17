@@ -4,6 +4,7 @@ import RestaurantCard from '../components/RestaurantCard';
 
 const RestaurantList = () => {
   const [restaurants, setRestaurants] = useState([]);
+
   
   useEffect(() => {
     // Fetch user data from local storage
